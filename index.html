@@ -9,12 +9,44 @@
 <body>
     <div id="main-panel">
         <div id="left-panel">
-            <form action="#">
-                <div id="left-title" class="plus-jakarta-sans-500">
-                    <h2>Mortgage Calculator</h2>
-                    <p> Clear All</p>
+                <div class="section-title plus-jakarta-sans-500">
+                    <h3>Mortgage Calculator</h3>
+                    <p><a href="#">Clear All</a></p>
                 </div>
-            </form>
+                <div class="section-form">
+                    <form action="">
+                <div class="input-group group1 plus-jakarta-sans-500">
+                    <label for="mortgage-amount">Mortgage Amount</label>
+                    <input type="text" id="mortgage-amount">
+                    <span class="group-1-input-icon"><p>$</p></span>
+                </div>
+                <div class="input-group group2 plus-jakarta-sans-500">
+                    <div class="input-group-2a group2-inner">
+                        <label for="mortgage-term">Mortgage Term</label>
+                        <input type="text" id="mortgage-term">
+                        <span class="group-2-input-icon a"><p>years</p></span>
+                    </div>
+                    
+                    <div class="input-group-2b group2-inner">
+                        <label for="interest-rate">Interest Rate</label>
+                        <input type="text" id="interest-rate">
+                        <span class="group-2-input-icon b"><p>%</p></span>
+                    </div>
+                </div>
+                
+                <div class="input-group group3 plus-jakarta-sans-500">
+                    <div class="radio-group">
+                        <input type="radio" name="payment_type" id="repayments">
+                        <label for="repayments">Repayments</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="payment_type" id="interest-only">
+                        <label for="interest-only">Interest Only</label>
+                    </div>
+                </div>
+                <div class="input-group"></div>
+                    </form>
+                </div>
         </div>
         <div id="right-panel"></div>
     </div>
